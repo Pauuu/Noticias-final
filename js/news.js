@@ -7,7 +7,7 @@ $.getJSON("https://rawgit.com/urbinapro/news/master/data/names.json", function (
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-            alert("near bottom!");
+            $("#contenido").append('Hola que tal');
         }
     })
 });
