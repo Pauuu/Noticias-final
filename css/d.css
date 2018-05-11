@@ -1,0 +1,83 @@
+body{
+    font-family:'Roboto',sans-serif;
+    background-color:#d46ccc85
+}
+
+h1{
+    margin: 40px;
+    size: 20px;
+}
+
+p{
+    margin: 40px;
+}
+
+/*Clases*/
+.jumbotron{
+    background-color:#d46ccc85;
+}
+
+.noticia{
+    padding-top: 10px;
+}
+
+.imagen{
+    border-width:5px;  
+    border-style:outset;
+
+    height: 250px;
+    width: 350px; 
+    margin: 12px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titular{
+    display: inline-table;
+}
+
+
+/*IDs*/
+
+#boton{
+    height: 30px;
+    width: 700px;
+}
+
+#cabecera{
+    height: 200px;
+}
+
+#contenido{
+    padding-right: 340px;
+    background-color: rgb(255, 226, 253);
+}
+
+#divBoton{
+    margin: 30px;
+}
+
+/*
+#news1{
+    display: flex;
+}
+*/
+
+#publicidad{
+    padding-right: 0;
+    position: absolute;
+    right: 0px;
+    width: 320px;
+    height: 615px;  
+    padding: 10px;
+    display: block;
+    background-color: rgb(133, 133, 200)
+}
+
+@media(min-width:768px){
+    background-color: blue;
+
+}

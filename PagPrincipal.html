@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Exemple de bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Descripció curta important. Descripció curta important. Descripció curta important." />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="css/d.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/news.js"></script>
+</head>
+
+<body>
+	<div id="cabecera" class="jumbotron text-center">
+		<h1>Cabecera</h1>
+	</div>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">WebSiteName</a>
+			</div>
+
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="#">Home</a>
+				</li>
+
+				<li class="dropdown">
+
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+						<span class="caret"></span>
+					</a>
+
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">Page 1-1</a>
+						</li>
+						<li>
+							<a href="#">Page 1-2</a>
+						</li>
+						<li>
+							<a href="#">Page 1-3</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">Page 2</a>
+				</li>
+
+				<li class="dropdown">
+
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Page 3
+						<span class="caret"></span>
+					</a>
+
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">Page 1-1</a>
+						</li>
+						<li>
+							<a href="#">Page 1-2</a>
+						</li>
+						<li>
+							<a href="#">Page 1-3</a>
+						</li>
+					</ul>
+
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		<img id="imgHorizontal" class="img-responsive center-block" src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pets4homes.co.uk%2Fimages%2Farticles%2F1092%2Flarge%2F7-of-the-most-affectionate-cat-breeds-522ed069473c9.jpg&f=1">
+	</div>
+
+	<br>
+
+	<div class="container">
+		<div class="row">
+			<div id="cabecera" class="jumbotron text-right" class="col-lg-4">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cU8HrO7XuiE"></iframe>
+					<!--poner siempre "https"-->
+				</div>
+			</div>
+			
+			<div id="cabecera" class="jumbotron text-right" class="col-lg-4">
+				<div class="container">
+					<img id="imgHorizontal" class="img-responsive center-block" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblogs.prensaescuela.es%2Fenprimeiro%2Ffiles%2F2016%2F04%2Fperro-rosa-e1443997515292-1.jpg&f=1">
+				</div>
+			</div>
+			<div id="cabecera" class="jumbotron text-right" class="col-lg-4">Jumbotron</div>
+		</div>
+
+		<div>
+			<button id="button" class="btn btn-primary">
+				Holis
+			</button>
+		</div>
+	</div>
+
+	<!--Ventana modlal-->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Modal Header</h4>
+				</div>
+
+				<div class="modal-body">
+					<p>Some text in the modal.</p>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
