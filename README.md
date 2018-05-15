@@ -1,1 +1,1 @@
-noticias
+# Pagina de noticias con boostrap

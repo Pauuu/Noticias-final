@@ -1,13 +1,19 @@
 <noticia>
-    <titular>
-        titular json
-    </titular>
-    <imagen>
-        aqui va la url
-    </imagen>
-    <fecha>
-        una fehca inventada
-    </fecha>
+    <title>
+        'Maria by Callas': el triunfo de la soledad 
+    </title>
+   
+    <imgbig>
+        ../img/img2_big.jpg
+    </imgbig>
+   
+    <imgmid>
+    </imgmid>
+   
+    <datetime>
+        11/05/2018 
+    </datetime>
+   
     <descripcion>
         descripcion de la noticia, etc. descripcion de la noticia, etc. 
         descripcion de la noticia, etc. descripcion de la noticia, etc. 
@@ -16,5 +22,6 @@
         descripcion de la noticia, etc. descripcion de la noticia, etc. 
         descripcion de la noticia, etc. descripcion de la noticia, etc. 
         descripcion de la noticia, etc. descripcion de la noticia, etc. 
+   
     </descripcion>
 </noticia>
