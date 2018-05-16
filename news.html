@@ -4,6 +4,7 @@
 <head>
     <title>Exemple de bootstrap</title>
     <meta charset="utf-8">
+    <meta>
     <meta name="description" content="Noticias culturales actual Baleares y España." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,7 +17,8 @@
 
 <body>
     <div id="cabecera" class="jumbotron text-center">
-        <h1>El diario de cultura</h1> <!--cambiar nombre-->
+        <h1>El diario de cultura</h1>
+        <!--cambiar nombre-->
     </div>
 
     <!-- barra superior de navegacion-->
@@ -81,9 +83,9 @@
 
     <div class="container-fluid" id="contenido">
 
-        <div class="img-responsive" id="publicidad">
+        <div class="img-responsive" id="publicidadPc">
             <a href="#">
-                <img class="img-responsive center-block" src="img/publi.png" alt="publicidad" />
+                <img class="img-responsive center-block" src="img/publi.png" alt="publicidadPc" />
             </a>
         </div>
 
@@ -113,7 +115,7 @@
                 </div>
             </div>
 
-            
+
             <div class="col-sm-6 noticia">
                 <div class="jumbotron ">
 
@@ -161,14 +163,19 @@
                     </p>
 
                 </div>
+
+                <div id="divBoton">
+                    <!--boton boostrap[], $hide-->
+                    <button type="button" class="btn-info" id="boton">Test</button>
+                </div>
             </div>
 
-        <div id="divBoton">
-            <!--boton boostrap[], $hide-->
-            <button type="button" class="btn-info" id="boton">Cargar mas</button>
-        </div>
+            <div id="divBoton">
+                <!--boton boostrap[], $hide-->
+                <button type="button" class="btn-info" id="boton">Cargar mas</button>
+            </div>
 
-    </div>
+        </div>
 
 
 
