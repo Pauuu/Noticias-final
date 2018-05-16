@@ -6,8 +6,8 @@ $.getJSON("https://rawgit.com/urbinapro/news/master/data/names.json", function (
 
 $(document).ready(function () {
     $(window).scroll(function () {
-        if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-            $("#contenido").append(
+        if ($(window).scrollTop() + $(window).height() <= $(document).height() + 10) {  /*miar bien como va lo del espacio*/ 
+            $(".noticias").append(
                 '<div class="col-sm-6 noticia">'
                 + '<div class="jumbotron">'
                 + '<a href="news3.html" id="news3">'
