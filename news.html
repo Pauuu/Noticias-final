@@ -2,7 +2,7 @@
 <html lang="en-Us">
 
 <head>
-    <title>Exemple de bootstrap</title>
+    <title>Cultura de actualidad</title>
     <meta charset="utf-8">
     <meta>
     <meta name="description" content="Noticias culturales actual Baleares y España." />
@@ -17,7 +17,7 @@
 
 <body>
     <div id="cabecera" class="jumbotron text-center">
-        <h1>El diario de cultura</h1>
+        <h1>Cultura de actualidad</h1>
         <!--cambiar nombre-->
     </div>
 
@@ -76,6 +76,7 @@
                     </ul>
                 </li>
             </ul>
+            <button class="btn-info" id="botonCargaAutomatica">hola que tal</button>
         </div>
     </nav>
 
@@ -92,16 +93,17 @@
         <div class="row noticias">
             <div class="col-sm-12 noticia" id="noticia1">
                 <div class="jumbotron">
+                    <div id="titularPrincipal">
+                        <span>
+                            <img class="imagen img-responsive center-block" id="imagen1" src="img/escritor1.jpeg" alt="escritor1">
+                        </span>
 
-                    <span>
-                        <img class="imagen img-responsive center-block" id="imagen1" src="img/marea_verde_mani.jpg" alt="marea_verde_mani">
-                    </span>
-
-                    <a href="news1.html" id="news1">
-                        <h2 class="titular">
-                            La historia de Emilio, escritor primerizo a los 80, que te hará recuperar la fe en los hilos de Twitter
-                        </h2>
-                    </a>
+                        <a href="new1.html" id="new1">
+                            <h2 class="titular">
+                                La historia de Emilio, escritor primerizo a los 80, que te hará recuperar la fe en los hilos de Twitter.
+                            </h2>
+                        </a>
+                    </div>
 
                     <br>
 
@@ -115,19 +117,17 @@
                 </div>
             </div>
 
-
             <div class="col-sm-6 noticia">
                 <div class="jumbotron ">
-
-                    <a href="news2.html" id="news2">
-                        <h2>
-                            'Players': la fotografía como juego
+                    <a href="new2.html" id="new2">
+                        <h2 class="titular">
+                            'Players': la fotografía como juego.
                         </h2>
-                        <span>
-                            <!-- la imagen ha de ser responsive-->
-                            <img class="imagen img-responsive" src="img/fin_eta.jpg" alt="fin_eta" />
-                        </span>
                     </a>
+                    <span>
+                        <!-- la imagen ha de ser responsive-->
+                        <img class="imagen img-responsive" src="img/players_fotografia1.jpg" alt="players_fotografia1" />
+                    </span>
 
                     <br>
 
@@ -135,7 +135,7 @@
 
                     <p>
                         Cristina de Middel y Martin Parr proponen una mirada lúdica a la vida a partir del archivo de la agencia Magnum. La exposición
-                        Players, inaugurada en el Espacio Fundación Telefónica, inaugura la sección Carta blanca del festival
+                        Players, inaugurada en el Espacio Fundación Telefónica, inaugura la sección Carta blanca del festival.
                         PhotoEspaña
                     </p>
                 </div>
@@ -143,14 +143,15 @@
 
             <div class="col-sm-6 noticia">
                 <div class="jumbotron">
-                    <a href="news3.html" id="news3">
-                        <h2>
-                            'Karate Kid' vuelve 34 años después para "dar cera, pulir cera" en una webserie, y es buena
+                    <a href="new3.html" id="new3">
+                        <h2 class="titular">
+                            'Karate Kid' vuelve 34 años después para "dar cera, pulir cera" en una webserie, y es buena.
                         </h2>
-                        <span>
-                            <img class="imagen img-responsive" src="img/viggo_ominum.jpg" alt="viggo_ominum" />
-                        </span>
                     </a>
+
+                    <span>
+                        <img class="imagen img-responsive" src="img/karate_kid1.jpg" alt="karate_kid1" />
+                    </span>
 
                     <br>
 
@@ -163,26 +164,14 @@
                     </p>
 
                 </div>
-
-                <div id="divBoton">
-                    <!--boton boostrap[], $hide-->
-                    <button type="button" class="btn-info" id="boton">Test</button>
-                </div>
             </div>
 
-            <div id="divBoton">
+            <div id="divBotonCargarMas">
                 <!--boton boostrap[], $hide-->
-                <button type="button" class="btn-info" id="boton">Cargar mas</button>
+                <button type="button" class="btn-info" id="botonCarga">Cargar mas</button>
             </div>
-
         </div>
-
-
-
-
-
-
-
+    </div>
 </body>
 
 </html>

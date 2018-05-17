@@ -1,31 +1,38 @@
 
+var automatico = false; //variable booleana; ('1')true si carga automática, ('0')false si con botón
+
 
 $(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(window).scrollTop() + $(window).height() > $(document).height() - 10) {  /*miar bien como va lo del espacio*/
+    $("#botonCargaAutomatica").click(function () {
+        automatico = true;
+        alert(automatico);
+    });
 
-            $.getJSON("https://cdn.rawgit.com/Pauuu/Noticias-final/2cd0807f/data/data1.json", function (jsonObject) {
-                //en aquest punt l'objecte jsonObject correspon al fitxer
-                pintarNoticias(jsonObject);
-            });
-            
-        }
-    })
+    if (automatico == true) {
+        mostrarNoticiaOnScroll();
+    }
 });
 
-function pintar(json) {
-    $.each(json, function (i, empleado) {
-        $("#out").append("<li id='" + i + "'>" + empleado.firstName + " " + empleado.lastName + "</li>");
+function cargarNoticias() {
+
+
+    $("#botonCargaAutomatica").click(function () {
+        automatico = (automatico + 1) % 2;
+        alert(automatico);
     });
+
+    if (automatico == 1) {
+        mostrarNoticiaOnScroll();
+    }
 }
 
-function pintarNoticias(json) {
-    $.each(json, function (i, noticia) {
+//imprime por pantalla la la noticia junto con las etiquetas html correspondientes
+function mostrarNoticia(json) {
+    $.each(json, function (i, item) {
         $(".noticias").append(
             '<div class="col-sm-6 noticia">'
             + '<div class="jumbotron">'
-            + '<a href="news3.html" id="news3">'
-            + '<h2>' + + '</h2>'
+            + '<h2 class="titular">' + item.empleado + '</h2>'
             + '<span>' + '<img>' + '</span>' //imagen
             + '<br>'
             + '<span>' + + '<span>' //fecha
@@ -33,5 +40,18 @@ function pintarNoticias(json) {
             + '</div>'
             + '</div>'
         );
-    });
+    })
+}
+
+//carga noticias automáticamente cuando el usuario esté llegando al final de la página 
+function mostrarNoticiaOnScroll() {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() + $(window).height() > $(document).height() - 20) {
+
+            $.getJSON("https://rawgit.com/urbinapro/news/master/data/names.json", function (jsonObject) {
+                //en aquest punt l'objecte jsonObject correspon al fitxer
+                mostrarNoticia(jsonObject);
+            });
+        }
+    })
 }
