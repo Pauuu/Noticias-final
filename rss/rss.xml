@@ -6,8 +6,8 @@
         Cultura de actualidad
     </title>  
     <link>
-        ../new1.html
-    </link> <!--cambiar el link-->
+        https://rawgit.com/Pauuu/Noticias-final/master/news.html
+    </link> 
     <description>
         Noticias culturales actual Baleares y España.
     </description>
@@ -16,7 +16,7 @@
         <title>
             La historia de Emilio, escritor primerizo a los 80, que te hará recuperar la fe en los hilos de Twitter.
         </title>
-        <link>../new1.html</link>
+        <link>https://rawgit.com/Pauuu/Noticias-final/master/new1.html</link>
         <description>
             "Ser breve, en arte, es suprema moralidad", decía Juan Ramón Jiménez, y todo lo que esta historia tiene de breve, lo tiene
             también de suprema. Hace unos días, un chaval de 18 años escribía un hilo en Twitter dirigido a sus
@@ -31,7 +31,7 @@
         <title>
             'Players': la fotografía como juego.
         </title>
-        <link>../new2.html</link>
+        <link>https://rawgit.com/Pauuu/Noticias-final/master/new2.html</link>
         <description>
             Cristina de Middel y Martin Parr proponen una mirada lúdica a la vida a partir del archivo de la agencia Magnum. La exposición
             Players, inaugurada en el Espacio Fundación Telefónica, inaugura la sección Carta blanca del festival.
@@ -46,7 +46,7 @@
         <title>
             'Karate Kid' vuelve 34 años después para "dar cera, pulir cera" en una webserie, y es buena.
         </title>
-        <link>../new3.html</link>
+        <link>https://rawgit.com/Pauuu/Noticias-final/master/new3.html</link>
         <description>
             Esta vez se centra en Johnny Lawrence, dedicado a la cerveza y a arreglar cañerías, y aún atormentado
             por la derrota con "una patada ilegal" de Larusso.
