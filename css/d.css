@@ -8,10 +8,6 @@ h1{
     size: 20px;
 }
 
-p{
-    margin: 40px;
-}
-
 /*Clases*/
 .jumbotron{
     background-color:#d46ccc85;
@@ -37,12 +33,12 @@ p{
 
 .titular{
     display: inline-table;
+    font-size: 55px;
 }
-
 
 /*IDs*/
 
-#boton{
+#botonCarga{
     height: 30px;
     width: 700px;
 }
@@ -51,20 +47,24 @@ p{
     height: 200px;
 }
 
+#titularPrincipal{
+    display: inline-flex;
+    text-align: center;
+}
+
+#titularPrincipal.a{
+    padding-left: 10px;
+}
+
 #contenido{
     padding-right: 340px;
     background-color: rgb(255, 226, 253);
 }
 
-#divBoton{
+#divBotonCargarMas{
     margin: 30px;
+    display: none;
 }
-
-/*
-#news1{
-    display: flex;
-}
-*/
 
 #publicidadPc{
     padding-right: 0;
@@ -77,7 +77,72 @@ p{
     background-color: rgb(133, 133, 200)
 }
 
-@media(min-width:768px){
-    background-color: blue;
+/************************************************************/
 
+@media(max-width:768px){
+   
+    h1{
+        margin: 40px;
+        font-size: 27px;
+    }
+ 
+    p{
+        margin: 6px;
+    }
+ 
+     /*Clases*/
+    .jumbotron{
+        background-color:#d46ccc85;
+    }
+ 
+    .noticia{
+        padding-top: 10px;
+    }
+ 
+    .imagen{
+        border-width:5px;  
+        border-style:inset;
+        border-color:#111997;
+ 
+        height: 250px;
+        width: 350px; 
+        margin: 0px;
+    }
+ 
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+    .titular{
+       display: inline-table;
+       font-size: 27px;
+       margin-bottom: 50px;
+    }
+
+    /*IDs*/
+ 
+    #botonCarga{
+        height: 30px;
+        width: 700px;
+    }
+ 
+    #cabecera{
+        height: 200px;
+    }
+ 
+    #contenido{
+        padding-right: 0;
+        background-color: rgb(255, 226, 253);
+    }
+ 
+    #divBotonCargarMas{
+        margin: 30px;
+        display: none;
+    }
+ 
+ 
+    #publicidadPc{
+       display: none;
+    }
 }
