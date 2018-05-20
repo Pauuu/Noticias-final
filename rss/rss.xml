@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
+    <atom:link href="https://rawgit.com/Pauuu/Noticias-final/master/news.html/rss.xml" rel="self" type="application/rss+xml" />
+
+
     <title>
         Cultura de actualidad
     </title>  
@@ -16,20 +19,18 @@
         <title>
             La historia de Emilio, escritor primerizo a los 80, que te hará recuperar la fe en los hilos de Twitter.
         </title>
-        <link>https://rawgit.com/Pauuu/Noticias-final/master/new1.html</link>
+        <guid>https://rawgit.com/Pauuu/Noticias-final/master/new1.html</guid>
+    
         <description>
             <![CDATA[
-             Image inside RSS
-             <img src="http://example.com/img/smiley.gif" alt="Smiley face">    
-            "Ser breve, en arte, es suprema moralidad", decía Juan Ramón Jiménez, y todo lo que esta historia tiene de breve, lo tiene
+            <img src="https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/escritor_mid.jpg" alt="Escritor">    
+            <p>"Ser breve, en arte, es suprema moralidad", decía Juan Ramón Jiménez, y todo lo que esta historia tiene de breve, lo tiene
             también de suprema. Hace unos días, un chaval de 18 años escribía un hilo en Twitter dirigido a sus
-            70 seguidores que, sin saberlo, iba a dar un vuelco a la vida de un hombre de 82 años.
+            70 seguidores que, sin saberlo, iba a dar un vuelco a la vida de un hombre de 82 años.</p>
             ]]>
         </description>
         
-        <img>
-            https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/escritor1.jpeg
-        </img>
+        
         <pubDate>Fri, 31 Dec 1999 23:59:59 EST</pubDate>
     </item>
 
@@ -37,15 +38,16 @@
         <title>
             'Players': la fotografía como juego.
         </title>
-        <link>https://rawgit.com/Pauuu/Noticias-final/master/new2.html</link>
+        <guid>https://rawgit.com/Pauuu/Noticias-final/master/new2.html</guid>
         <description>
-            Cristina de Middel y Martin Parr proponen una mirada lúdica a la vida a partir del archivo de la agencia Magnum. La exposición
+            <![CDATA[
+            <img src="https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/players_mid.jpg" alt="Players">    
+            <p>Cristina de Middel y Martin Parr proponen una mirada lúdica a la vida a partir del archivo de la agencia Magnum. La exposición
             Players, inaugurada en el Espacio Fundación Telefónica, inaugura la sección Carta blanca del festival.
-            PhotoEspaña.
+            PhotoEspaña.</p>
+            ]]>
+            
         </description>
-        <image>
-            https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/karate_kid1.jpg
-        </image>
         <pubDate>Fri, 31 Dec 1999 23:59:59 EST</pubDate>
     </item>
 
@@ -53,23 +55,18 @@
         <title>
             'Karate Kid' vuelve 34 años después para "dar cera, pulir cera" en una webserie, y es buena.
         </title>
-        <link>https://rawgit.com/Pauuu/Noticias-final/master/new3.html</link>
+        <guid>https://rawgit.com/Pauuu/Noticias-final/master/new3.html</guid>
         <description>
+            <![CDATA[
+            <img src="https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/karateKid_mid.jpg" alt="KarateKid">    
+            <p>La serie Cobra Kai, distribuida por YouTube Red, es la secuela de la mítica historia iniciada con el señor Miyagi en 1984.
             Esta vez se centra en Johnny Lawrence, dedicado a la cerveza y a arreglar cañerías, y aún atormentado
-            por la derrota con "una patada ilegal" de Larusso.
+            por la derrota con "una patada ilegal" de Larusso.</p>
+            ]]>
         </description>
-        <image>
-            https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/players_fotografia1.jpg
-        </image>
-        <pubDate>Fri, 31 Dec 1999 23:59:59 EST</pubDate>
+        <pubDate>Fri, 31 Dec 1999 23:58:59 EST</pubDate>
     </item>
 
 </channel>
-
-<hila>
-<![CDATA[
-  Image inside RSS
-  <img src="http://example.com/img/smiley.gif" alt="Smiley face">   ]]> 
-  
 
 </rss>
