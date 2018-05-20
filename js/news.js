@@ -7,11 +7,11 @@ $(document).ready(function () {
         if (automatico == true) {
 
             automatico = false;
-            alert("carga automatica desactivada");
+            $("#botonCargaAutomatica").text("Activar autoscrol");
 
         } else {
             automatico = true;
-            alert("carga automatica activada");
+            $("#botonCargaAutomatica").text("Desactivar autoscrol");
         }
 
     });
@@ -30,7 +30,7 @@ function mostrarNoticia(json) {
         $(".noticias").append(
             '<div class="col-sm-6 noticia">'
             + '<div class="jumbotron">'
-            + '<h2 class="titular">' + item + '</h2>'
+            + '<h2 class="titular">' + item.title + '</h2>'
             + '<span>' + '<img>' + '</span>' //imagen
             + '<br>'
             + '<span>' + + '<span>' //fecha
