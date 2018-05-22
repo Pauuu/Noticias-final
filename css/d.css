@@ -26,9 +26,13 @@ h1{
     padding-top: 10px;
 }
 
-.imagen{
-
+.imagen_big{
     border-radius: 25px;
+}
+
+.imagen_mid{
+    
+    border-radius: 10%;
     width: 350px; 
     height: 250px;
     margin: 0px;

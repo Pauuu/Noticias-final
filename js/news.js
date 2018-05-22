@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     $("#botonCargar").click(function () {
         if (!cargaAutomatica) {
-            for(i = 0; i < 4; i++){
+            for (i = 0; i < 4; i++) {
                 mostrarNoticia();
             }
         }
@@ -43,7 +43,7 @@ function crearNoticia(json) {
             + '<span>' + '<img>' + '</span>' //imagen
             + '<br>'
             + '<span>' + item.datetime + '<span>' //fecha
-            + '<p>' +item.description + '</p>' //descripción
+            + '<p>' + item.description + '</p>' //descripción
             + '</div>'
             + '</div>'
         );
