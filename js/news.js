@@ -40,7 +40,7 @@ function crearNoticia(json) {
             '<div class="col-sm-6 noticia">'
             + '<div class="jumbotron">'
             + '<h2 class="titular">' + item.title + '</h2>'
-            + '<span>' + '<img>' + '</span>' //imagen
+            + '<span>' + '<img class="imagen_mid img-responsive" src="' + item.imgmid +'">' + '</span>' //imagen
             + '<br>'
             + '<span>' + item.datetime + '<span>' //fecha
             + '<p>' + item.description + '</p>' //descripción
