@@ -55,6 +55,8 @@ function mostrarNoticia() {
         //en aquest punt l'objecte jsonObject correspon al fitxer
         crearNoticia(jsonObject);
     });
+
+    idNoticia++;
 }
 
 //carga noticias automáticamente cuando el usuario esté llegando al final de la página 
