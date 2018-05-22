@@ -1,8 +1,9 @@
-[{
-   "title": "'Maria by Callas': el triunfo de la soledad",
-   "imgbig": "../img/img2_big.jpg",
-   "imgmid": [],
-   "datetime": "11/05/2018",
-   "description": "descripcion de la noticia, etc. descripcion de la noticia, etc. \n        descripcion de la noticia, etc. descripcion de la noticia, etc. \n        descripcion de la noticia, etc. descripcion de la noticia, etc. \n        descripcion de la noticia, etc. descripcion de la noticia, etc. \n        descripcion de la noticia, etc. descripcion de la noticia, etc. \n        descripcion de la noticia, etc. descripcion de la noticia, etc. \n        descripcion de la noticia, etc. descripcion de la noticia, etc."
-}]
-
+[
+    {
+        "title": "'Maria by Callas': el triunfo de la soledad",
+        "imgbig": "../img/mariaByCallas_big.jpg",
+        "imgmid": "../img/mariaByCallas_mid.jpg",
+        "datetime": "11/05/2018",
+        "description": "'Ningún artista de verdad podría ser feliz'. Son palabras de Maria Callas pero no sabemos si de la diva o de la civil. Maria by Callas, como su título indica, pretende revelar la persona al trasluz de la artista. Lo hace con bártulos de documental, lejos de la hagiografía y trazando someramente la novela de una vida que tal vez no fue una tragedia griega, pero que empezó en una infancia sometida y terminó en la soledad de la cumbre."
+    }
+]
