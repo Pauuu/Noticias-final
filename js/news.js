@@ -37,7 +37,7 @@ $(document).ready(function () {
 function crearNoticia(json) {
     $.each(json, function (i, item) {
         $(".noticias").append(
-            '<div class="col-sm-6 noticia">'
+            '<div class="col-md-6 col-sm-12 noticia">'
             + '<div class="jumbotron">'
             + '<h2 class="titular">' + item.title + '</h2>'
             + '<span>' + '<img class="imagen_mid img-responsive" src="' + item.imgmid +'">' + '</span>' //imagen

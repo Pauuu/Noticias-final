@@ -15,10 +15,13 @@
         Noticias culturales actual Baleares y España.
     </description>
 
+    <!--Poner logo pagina!!!!!!!!!!1-->
+
     <item>
         <title>
             La historia de Emilio, escritor primerizo a los 80, que te hará recuperar la fe en los hilos de Twitter.
         </title>
+        
         <guid>https://rawgit.com/Pauuu/Noticias-final/master/new1.html</guid>
     
         <description>
@@ -30,7 +33,6 @@
             ]]>
         </description>
         
-        
         <pubDate>Fri, 31 Dec 1999 23:59:59 EST</pubDate>
     </item>
 
@@ -38,7 +40,9 @@
         <title>
             'Players': la fotografía como juego.
         </title>
+
         <guid>https://rawgit.com/Pauuu/Noticias-final/master/new2.html</guid>
+        
         <description>
             <![CDATA[
             <img src="https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/players_mid.jpg" alt="Players">    
@@ -46,8 +50,8 @@
             Players, inaugurada en el Espacio Fundación Telefónica, inaugura la sección Carta blanca del festival.
             PhotoEspaña.</p>
             ]]>
-            
         </description>
+
         <pubDate>Fri, 31 Dec 1999 23:59:59 EST</pubDate>
     </item>
 
@@ -55,7 +59,9 @@
         <title>
             'Karate Kid' vuelve 34 años después para "dar cera, pulir cera" en una webserie, y es buena.
         </title>
+        
         <guid>https://rawgit.com/Pauuu/Noticias-final/master/new3.html</guid>
+        
         <description>
             <![CDATA[
             <img src="https://raw.githubusercontent.com/Pauuu/Noticias-final/master/img/karateKid_mid.jpg" alt="KarateKid">    
@@ -64,6 +70,7 @@
             por la derrota con "una patada ilegal" de Larusso.</p>
             ]]>
         </description>
+        
         <pubDate>Fri, 31 Dec 1999 23:58:59 EST</pubDate>
     </item>
 

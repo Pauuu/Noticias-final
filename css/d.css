@@ -1,6 +1,6 @@
 body{
     font-family:'Roboto',sans-serif;
-    background-color:#d46ccc85
+    background-color:oldlace;
 }
 
 h1{
@@ -14,7 +14,7 @@ h1{
 }
 
 .jumbotron{
-    background-color:#d46ccc85;
+    background-color:oldlace;
 }
 
 .jumbotron p{
@@ -31,10 +31,8 @@ h1{
 }
 
 .imagen_mid{
-    
-    border-radius: 10%;
-    width: 350px; 
-    height: 250px;
+
+    border-radius: 10%; 
     margin: 0px;
 }
 
@@ -53,7 +51,7 @@ h1{
 
 #botonCargaAutomatica{
     left: 0;
-    padding: 15px;
+    padding: 10px;
     float: right;
     font-size: 20px;
 }
@@ -69,7 +67,7 @@ h1{
 
 #contenido{
     padding-right: 340px;
-    background-color: rgb(255, 226, 253);
+    background-color: blanchedalmond;
 }
 
 #divBotonCargarMas{
@@ -77,10 +75,13 @@ h1{
     width: 100%;
 }
 
-#imagenPrincipal{
-    width: 600px; 
-    height: 300px;
-    margin: 0px;
+#framePubliMovil{
+    display: none;
+}
+
+#framePubliPc{
+    width: 300px;
+    height: 600px;  
 }
 
 #publicidadPc{
@@ -90,8 +91,9 @@ h1{
     height: 600px;  
     margin: 15px;
     display: block;
-    background-color: rgb(133, 133, 200)
 }
+
+
 
 #titularPrincipal{
     display: inline-flex;
@@ -121,7 +123,7 @@ h1{
  
      /*Clases*/
     .jumbotron{
-        background-color:#d46ccc85;
+        background-color:blanchedalmond;
     }
  
     .noticia{
@@ -162,13 +164,25 @@ h1{
  
     #contenido{
         padding-right: 0;
-        background-color: rgb(255, 226, 253);
+        background-color: blanchedalmond;
     }
  
     #divBotonCargarMas{
         margin: 30px;
         display: none;
     }
+
+    #framePubliPc{
+        display: none;  
+    }
+
+    #framePubliMovil{
+        padding-left: 25%;
+        width: 320px;
+        height: 100px;  
+        display: block;
+    }
+    
  
     #publicidadPc{
        display: none;
