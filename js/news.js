@@ -5,16 +5,16 @@ var idNoticia = 1;
 $(document).ready(function () {
 
     $("#botonCargaAutomatica").click(function () {
-        if (cargaAutomatica == true) {
 
-            cargaAutomatica = false;
-            $("#botonCargaAutomatica").text("Activar autoscrol");
+        cargaAutomatica = !cargaAutomatica;
+
+        //cambia el texto del boton indicando si es automatico o no
+        if (cargaAutomatica == true) {
+            $("#botonCargaAutomatica").text("Desactivar autoscrol");
 
         } else {
-            cargaAutomatica = true;
-            $("#botonCargaAutomatica").text("Desactivar autoscrol");
+            $("#botonCargaAutomatica").text("Activar autoscrol");
         }
-
     });
 
     $(window).scroll(function () {
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     $("#botonCargar").click(function () {
         if (!cargaAutomatica) {
-            for (i = 0; i < 4; i++) {
+            for (i = 0; i < 2; i++) { //carga 2 noticias a la vez
                 mostrarNoticia();
             }
         }
@@ -40,21 +40,26 @@ function crearNoticia(json) {
             '<div class="col-md-6 col-sm-12 noticia">'
             + '<div class="jumbotron">'
             + '<h2 class="titular">' + item.title + '</h2>'
-            + '<span>' + '<img class="imagen_mid img-responsive" src="' + item.imgmid +'">' + '</span>' //imagen
+            + '<span>' + '<img class="imagen_mid img-responsive" src="' + item.imgmid + '">' + '</span>' //imagen
             + '<br>'
             + '<span>' + item.datetime + '<span>' //fecha
             + '<p>' + item.description + '</p>' //descripción
             + '</div>'
             + '</div>'
         );
+
     })
 }
 
 function mostrarNoticia() {
-    $.getJSON("https://rawgit.com/Pauuu/Noticias-final/master/data/data" + idNoticia + ".json", function (jsonObject) {
+    $.getJSON("https://cdn.rawgit.com/Pauuu/Noticias-final/767de142/data/data" + idNoticia + ".json", function (jsonObject) {
         //en aquest punt l'objecte jsonObject correspon al fitxer
         crearNoticia(jsonObject);
-    });
+    })
+        .fail(function () {
+            $('#botonCargar').text('No hay más noticias :(');
+        });
+
 
     idNoticia++;
 }
@@ -69,23 +74,9 @@ function mostrarNoticiaOnScroll() {
     }
 }
 
-/*
-function mostrarNoticiaOnScroll() {
-
-    if ($(window).scrollTop() + $(window).height() > $(document).height() - 25) {
-
-        $.getJSON("https://rawgit.com/Pauuu/Noticias-final/master/data/data" + idNoticia + ".json", function (jsonObject) {
-            //en aquest punt l'objecte jsonObject correspon al fitxer
-            crearNoticia(jsonObject);
-        });
-
-    }
-}
-*/
-
 function mostrarNoticiaOnBoton() {
     $("#botonCargar").click(function () {
-        crearNoticia();
-        crearNoticia();
+        mostrarNoticia();
+        mostrarNoticia();
     });
 }
