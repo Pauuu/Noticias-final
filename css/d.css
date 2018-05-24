@@ -10,7 +10,10 @@ h1{
 
 /*Clases*/
 .fecha{
+    border-left: 4px solid blue;
     font-size: 20px;
+    margin: 18px;
+    background-color: lightblue
 }
 
 .jumbotron{
@@ -31,7 +34,6 @@ h1{
 }
 
 .imagen_mid{
-
     border-radius: 10%; 
     margin: 0px;
 }
@@ -84,6 +86,14 @@ h1{
     height: 600px;  
 }
 
+#imagenPrincipal{
+    margin: auto;
+}
+
+#new1.h2{
+    width: 290%;
+}
+
 #publicidadPc{
     position: absolute;
     right: 0px;
@@ -91,9 +101,13 @@ h1{
     height: 600px;  
     margin: 15px;
     display: block;
+    background-color: blanchedalmond;
 }
 
-
+#spanimgPrincipal{
+    height: 100%;
+    width: 100%;
+}
 
 #titularPrincipal{
     display: inline-flex;
@@ -120,12 +134,8 @@ h1{
     p{
         margin: 6px;
     }
- 
-     /*Clases*/
-    .jumbotron{
-        background-color:blanchedalmond;
-    }
- 
+    
+    /*Clases*/ 
     .noticia{
         padding-top: 10px;
     }
@@ -183,8 +193,12 @@ h1{
         display: block;
     }
     
- 
     #publicidadPc{
        display: none;
+    }
+
+    #titularPrincipal{
+        display: block;
+        text-align: center;
     }
 }
