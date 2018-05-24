@@ -47,7 +47,6 @@ function crearNoticia(json) {
             + '</div>'
             + '</div>'
         );
-
     })
 }
 
@@ -66,17 +65,14 @@ function mostrarNoticia() {
 
 //carga noticias automáticamente cuando el usuario esté llegando al final de la página 
 function mostrarNoticiaOnScroll() {
-
     if ($(window).scrollTop() + $(window).height() > $(document).height() - 30) {
         //para que cargue de dos en dos
         mostrarNoticia();
-        mostrarNoticia();
     }
 }
-
+/*
 function mostrarNoticiaOnBoton() {
     $("#botonCargar").click(function () {
         mostrarNoticia();
-        mostrarNoticia();
     });
-}
+}*/
