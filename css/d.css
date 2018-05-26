@@ -87,7 +87,13 @@ h1{
 }
 
 #imagenPrincipal{
-    margin: auto;
+    margin: 18px;
+}
+
+#new1{
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #new1.h2{
@@ -179,7 +185,6 @@ h1{
  
     #divBotonCargarMas{
         margin: 30px;
-        display: none;
     }
 
     #framePubliPc{
