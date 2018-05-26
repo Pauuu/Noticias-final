@@ -41,7 +41,7 @@ function crearNoticia(json) {
             + '<h2 class="titular">' + item.title + '</h2>'
             + '<span>' + '<img class="imagen_mid img-responsive" src="' + item.imgmid + '">' + '</span>' //imagen
             + '<br>'
-            + '<span>' + item.datetime + '<span>' //fecha
+            + '<span class="fecha">' + item.datetime + '<span>' //fecha
             + '<p>' + item.description + '</p>' //descripción
             + '</div>'
             + '</div>'
@@ -50,14 +50,18 @@ function crearNoticia(json) {
 }
 
 function mostrarNoticia() {
-    if (idJson < 3) {
+    if (idJson < 4) {
         $.getJSON("https://rawgit.com/Pauuu/Noticias-final/master/data/data" + idJson + ".json", function (jsonObject) {
             //en aquest punt l'objecte jsonObject correspon al fitxer
             crearNoticia(jsonObject);
         });
-    } else {
+
+        if (idJson >= 3){
+            $('#botonCargar').text('No hay más noticias :(');
+        }
+    } /*else {
         $('#botonCargar').text('No hay más noticias :(');
-    }
+    }*/
 
     idJson++;
 }
@@ -68,9 +72,3 @@ function mostrarNoticiaOnScroll() {
         mostrarNoticia();
     }
 }
-/*
-function mostrarNoticiaOnBoton() {
-    $("#botonCargar").click(function () {
-        mostrarNoticia();
-    });
-}*/
