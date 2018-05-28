@@ -1,5 +1,8 @@
 # Págia de noticias con boostrap
 
+## Link de Rawgit
+https://rawgit.com/Pauuu/Noticias-final/master/news.html
+
 ---
 ## Diseño
 ---Poner imagen del cuaderno---
