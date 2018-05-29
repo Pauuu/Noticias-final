@@ -5,7 +5,7 @@ var idJson = 1;
 $(document).ready(function () {
 
     $("#botonCargaAutomatica").click(function () {
-
+       
         cargaAutomatica = !cargaAutomatica;
 
         //cambia el texto del boton indicando si es automatico o no
@@ -51,24 +51,28 @@ function crearNoticia(json) {
 
 function mostrarNoticia() {
     if (idJson < 4) {
+
+    
         $.getJSON("https://rawgit.com/Pauuu/Noticias-final/master/data/data" + idJson + ".json", function (jsonObject) {
             //en aquest punt l'objecte jsonObject correspon al fitxer
             crearNoticia(jsonObject);
+            
         });
 
         if (idJson >= 3){
             $('#botonCargar').text('No hay más noticias :(');
         }
-    } /*else {
-        $('#botonCargar').text('No hay más noticias :(');
-    }*/
-
+    } 
     idJson++;
 }
 
 //carga noticias automáticamente cuando el usuario esté llegando al final de la página 
 function mostrarNoticiaOnScroll() {
+    
     if ($(window).scrollTop() + $(window).height() > $(document).height() - 30) {
+        cargaAutomatica = false;
         mostrarNoticia();
+        cargaAutomatica = true;
+        
     }
 }

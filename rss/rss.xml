@@ -6,11 +6,18 @@
 
 
     <title>
-        La Cultura Baleares
+        Kuriosidades!
     </title>  
-    <link>
+
+    <image>
+		<url>https://rawgit.com/Pauuu/Noticias-final/master/img/aaa.jpg</url>
+		<title>Jojo's Bizarre Adventure HOT news!</title>
+		<link>
         https://rawgit.com/Pauuu/Noticias-final/master/news.html
-    </link> 
+    </link>
+    </image>
+
+     
     <description>
         Noticias culturales actual Baleares y España.
     </description>
