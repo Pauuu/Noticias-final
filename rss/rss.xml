@@ -11,12 +11,11 @@
 
     <image>
 		<url>https://rawgit.com/Pauuu/Noticias-final/master/img/pauLogo.jpg</url>
-		<title>Jojo's Bizarre Adventure HOT news!</title>
-		<link>
-        https://rawgit.com/Pauuu/Noticias-final/master/news.html
-    </link>
     </image>
 
+    <link>
+        https://rawgit.com/Pauuu/Noticias-final/master/news.html
+    </link>
      
     <description>
         Noticias culturales actual Baleares y España.
