@@ -58,6 +58,7 @@ h1{
 
 #barraNavegacion{
     top: 42px;
+    z-index: 1;
 }
 
 #botonCargaAutomatica{
@@ -226,6 +227,7 @@ h1{
         height: 100px;  
         display: block;
         margin: auto;
+        margin-bottom: 5px;
     }
 
     #imagenPrincipal{
