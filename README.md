@@ -8,7 +8,6 @@ https://rawgit.com/Pauuu/Noticias-final/master/news.html
 
 
 ## Diseño
----Poner imagen del cuaderno---
 
 ### Composición de los elementos
 La noticia principal se verá arriba y ocupará el 100% de la anchura de su contenedor. Las demás serán la mitad de grandes y se verán de 2 en dos por cada fila. 
