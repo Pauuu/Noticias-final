@@ -17,8 +17,17 @@ El resto de noticias son presentaciones de noticias pero sin ningún tipo de lin
 
 Cada noticia en la página principal cuenta con un título, una imagen de mediana resolución, una pequeña descripción y la fecha de la noticia.
 
+
+### Anuncios
+Dos tipos de anuncios: Móvil y PC.
+
+El de PC se situa en la parte derecha de la página, colocado fijamente, por tanto no puede seguir al usuario.
+La de móvil se situa en la parte superior de la página, tiene un taaño menor al de PC.
+
 ## Funcionamiento
 Las páginas precargadas tienen un link a un archivo .html con la página precargada donde se muestra toda la noticia completa.
 
 La página tiene la particularidad de cargar mas noticias (sin link a ningún otro fichero o página) al llegar al final de la página o al pulsar el botón de cargar más noticias. El usuario, pulsando un botón tiene la opción de cargar más noticias automáticamente o cargar al pulsar el botón del final de la página.
+
+Las noticias se cargaran a parir de los archivos JSON almacenados otro repositorio. Cada JSON tiene almacenadas 2 noticias. Cada noticia 
 
