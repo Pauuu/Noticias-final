@@ -3,6 +3,9 @@
 ## Link de Rawgit
 https://rawgit.com/Pauuu/Noticias-final/master/news.html
 
+
+## Bocetos
+
 ![Imagen uno](/uno.jpeg)
 ![Imagen dos](/dos.jpeg)
 
