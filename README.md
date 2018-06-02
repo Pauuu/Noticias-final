@@ -34,7 +34,7 @@ Los anuncios son cargados con una etiqueta frame. Las noticias tienen un script 
 ## Funcionamiento
 Las páginas precargadas tienen un link a un archivo .html con la página precargada donde se muestra toda la noticia completa.
 
-La página tiene la particularidad de cargar mas noticias (sin link a ningún otro fichero o página) al llegar al final de la página o al pulsar el botón de cargar más noticias. El usuario, pulsando un botón tiene la opción de cargar más noticias automáticamente o cargar al pulsar el botón del final de la página.
+La página principal tiene la particularidad de cargar mas noticias (sin link a dicha noticia) al llegar al final de la página o al pulsar el botón de cargar más noticias. El usuario, pulsando un botón de autoscroll tiene la opción de cargar más noticias automáticamente o cargar al pulsar el botón del final de la página.
 
-Las noticias se cargaran a partir de los archivos JSON almacenados otro repositorio. Cada JSON tiene almacenadas 2 noticias. Cada 2 noticias se cargan en una nueva row en el html.
+Las noticias se cargaran a partir de los archivos JSON almacenados en este mismo repositorio en la carpeta <i>data</i>. Cada JSON tiene almacenadas 2 noticias. La página principal carga una row por cada 2 JSONs.
 
